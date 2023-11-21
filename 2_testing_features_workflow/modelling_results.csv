@@ -1,1 +1,4 @@
-﻿features_in_training,training_RMSE,test_RMSE,tested_by
+features_in_training,algorithm,acc_CV,acc_test,tested_by,date,filename
+,"xgboost				",,,,,
+,"DT				",,,,,
+,"KNN				",,,,,
