@@ -1,6 +1,10 @@
 How to determine which points within a linear regression graph are not linear?
-How to implement RF for this? What is "approximately" the same RF? 
-How similar is similar enough? How to measure the similarity?
+How to implement RF for this? What is "approximately" the same RF? How similar is similar enough? How to measure the similarity?
 
-Treat it as a classification problem - to start. I think this is the bottleneck. 
-If we have this classification task solved, then calculating the slope is an easy task? 
+Treat it as a classification problem - to start. I think this is the bottleneck. If we have this classification task solved, then calculating the slope is an easy task? 
+
+
+We should use other evaluation metrics? we can start with accuracy, and then for the better models do like confusion matrix, f1-score, TPR and FPR?
+
+Should we have another meeting with Anneli? What is our test data? 
+I am slightly worried that we now train model based on all datapoints, but in reality it should be compound & lab based? Don't know how this can be done though...
