@@ -48,3 +48,7 @@ features_in_training,algorithm,acc_CV,acc_test,tested_by,date,filename,comment,
 ,,,,,,,,
 "['RT','peak_area_norm1','c_real_M_norm1', 'rf_norm1', 'slope', 'intercept', 'residuals_norm1', 'abs_residuals_norm1']",RF,83.55%,80.57%,Louise,2023-11-27,LM_modelling_workflow_improve_models_2023-11-27,"with GridSearchCV to find best performing hyperparameters: ['criterion': 'entropy', 'max_depth': 20, 'max_samples': 1.0, 'min_samples_leaf': 2, min_samples_split': 2, min_weight_fraction_leaf': 0.0, 'n_estimators': 100]",strangely the results were worse than with default values…
 "['RT','peak_area_norm1','c_real_M_norm1', 'rf_norm1', 'slope', 'intercept', 'residuals_norm1', 'abs_residuals_norm1']",XGBoost,84.88%,83.42%,Louise,2023-11-27,LM_modelling_workflow_improve_models_2023-11-27,"with GridSearchCV to find best performing hyperparameters: ['alpha': 0, 'eta': 0.15, 'gamma': 0, 'lambda': 0, 'max_depth': 5, 'num_parallel_tree': 1, 'subsample': 1]",strangely the results were worse than with default values…
+,,,,,,,,
+"['log10_conc_norm2','log10_area_norm2','log10_RF_norm2']","DT				",64.87%,63.98%,Helen,2023-11-28,altering_features_modelling_workflow_HS,,
+"['log10_conc_norm2','log10_area_norm2','log10_RF_norm2']","KNN				",65.58%,64.76%,Helen,2023-11-28,altering_features_modelling_workflow_HS,,
+"['log10_conc_norm2','log10_area_norm2','log10_RF_norm2']",RF,67.30%,66.83%,Helen,2023-11-28,altering_features_modelling_workflow_HS,,
